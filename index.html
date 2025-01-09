@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampshades by Luke</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            margin: 15px 0;
+            font-size: 1.2rem;
+        }
+        .product p {
+            padding: 0 10px;
+        }
+        .product button {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+        .product button:hover {
+            background: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <img src="NEW LOGO.png" alt="Logo" style="max-width: 100px; height: auto;">
+    <h1>Hey sexy woman, can you see this?</h1>
+    <p>Custom, stylish lampshades to brighten your home.</p>
+</header>
+    <nav>
+        <a href="#products">Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h1>Illuminate Your Space</h1>
+        <p>Discover unique, handcrafted lampshades perfect for any decor.</p>
+    </section>
+    <section id="products" class="products">
+        <div class="product">
+            <img src="lampshade1.jpg" alt="Lampshade 1">
+            <h3>Modern White Shade</h3>
+            <p>Elegant and versatile. Perfect for modern interiors.</p>
+            <button>Add to Cart - &pound;25.00</button>
+        </div>
+        <div class="product">
+            <img src="lampshade2.jpg" alt="Lampshade 2">
+            <h3>Rustic Charm</h3>
+            <p>A warm, earthy tone to add character to your room.</p>
+            <button>Add to Cart - &pound;30.00</button>
+        </div>
+        <div class="product">
+            <img src="lampshade3.jpg" alt="Lampshade 3">
+            <h3>Bold and Bright</h3>
+            <p>Make a statement with this vibrant design.</p>
+            <button>Add to Cart - &pound;35.00</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Lampshades by Luke. All rights reserved.</p>
+    </footer>
+</body>
+</html>
